@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>TypeScript HTML App</title>
+    <link rel="stylesheet" href="app.css" type="text/css" />
+    <script src="app.js"></script>
+</head>
+<body>
+    <h1>Todo List - TypeScript</h1>
+
+    <div id="content">
+        <div>
+            <div><span>Subject: </span></div>
+            <div><input id="txtTaskSubject" type="text" style="width:400px;" /></div>
+        </div>
+        <div>
+            <div><span>Description: </span></div>
+            <div><textarea id="txtTaskDescription" cols="50" rows="5"></textarea></div>
+        </div>
+        <div>
+            <div>
+                <input id="btnSaveTask" type="button" value="Save" title="0" />
+                <input id="btnClearTask" type="button" value="Clear" title="0" />
+            </div>
+        </div>
+        <div>
+            <table id="SavedTasks">
+                <thead>
+                <td style="width: 300px;">Subject</td>
+                <td style="width: 300px;">Description</td>
+                <td style="width: 150px;">Actions</td>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+
+</body>
+</html>
